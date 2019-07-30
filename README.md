@@ -6,8 +6,9 @@
 https://github.com/maorin/minicap
 
 ## 启动mincap
-adb devices
+
 adb forward tcp:1313 localabstract:minicap
+
 adb shell LD_LIBRARY_PATH=/data/local/tmp/adbmirror /data/local/tmp/adbmirror/minicap -P 2340x2340@780x780/0 -S -Q 80
 
 ['adb', 'shell', 'LD_LIBRARY_PATH=/data/local/tmp/adbmirror /data/local/tmp/adbmirror/minicap -P 2340x2340@780x780/0 -S -Q 80']
