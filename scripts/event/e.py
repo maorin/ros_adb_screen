@@ -1,4 +1,5 @@
 import subprocess
+
 def get_xy():
     cmd = r'adb shell getevent'
     w = 0
